@@ -1,0 +1,8 @@
+book_filename: "lovely-loon"
+new_session: true
+output_dir: "docs"
+before_chapter_script: _common.R
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: "Chapter "

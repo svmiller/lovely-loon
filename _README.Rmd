@@ -1,0 +1,26 @@
+---
+output: github_document
+---
+
+# An Explanation for This Repository's Name
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "80%",
+  fig.align = "center"
+)
+```
+
+[I got tired of the peer-review process](https://twitter.com/stevenvmiller/status/1229788167223398400) changing the names of my projects. When this happened, my repository names would no longer make sense. [I started creating nicknames for my projects](https://twitter.com/stevenvmiller/status/1229788168049676294) at the project's onset, using either the Ubuntu Name Generator or the Wu-Tang Name Generator. This led to the creation of an R package---[`{codename}`](https://github.com/svmiller/codename)---that would do this for me. This is what came out for this particular idea of mine.
+
+```{r}
+library(codename)
+
+codename_message()
+variety_pack("Steve writes an EH/IR methods book")
+```
+
+I liked "lovely loon" the best, so "lovely loon" it is.
